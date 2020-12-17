@@ -1,0 +1,98 @@
+body{
+	flex-basis: 1200px;
+	font-family:"Lucida Sans Unicode";
+	color:white;
+	background-image:url("pozadinske_slike/pozadina.jpg");
+}
+
+#container{
+	flex-basis:1700px;
+	height: 0vh;
+	margin:0 auto;
+	background-color:white;
+}
+
+#div1{
+	flex-wrap: wrap;
+	font-size: 11pt;
+}
+
+.flexdiv{
+	
+	display:flex;
+	font-size: 11pt;
+	padding: 10px;
+}
+
+img{
+	border:2px dotted white;
+	margin:3px;
+}
+
+header{
+	height:80px;
+	background-image:url("pozadinske_slike/header.jpg");
+	flex-basis:1170px;
+	margin:0 15px;
+	padding-top:1px;
+}
+
+#content{
+	margin:15px;
+	display:table;
+	border-spacing:15px;
+	vertical-align:top;
+}
+
+nav{
+	background-color:#008;
+	flex-basis:225px;
+	display:table-cell;
+}
+
+a:link{
+	color:#7ec0ee;
+	text-decoration:none;
+}
+
+a:visited{
+	color:#7ec0ee;
+}
+
+a:hover{
+	color:magenta;
+}
+
+article{
+	flex-basis:615px;
+	background-color:#008;
+	display:table-cell;
+}
+
+article p{
+	margin:20px;
+}
+
+
+aside{
+	flex-basis:300px;
+	background-color:#008;
+	display:table-cell;
+	
+}
+
+table{
+	width:inherit;
+	border-color:white;
+}
+
+footer{
+	background-color:#008;
+	margin:15px 15px 0 15px;
+	height:80px;
+}
+
+#dugmad{
+
+	display: flex;
+}

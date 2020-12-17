@@ -1,0 +1,19 @@
+/*Responzivnost headera*/
+
+@media all and (max-width: 900px){
+
+    #container{
+
+        color: blueviolet;
+        font-style: italic;
+    }
+}
+
+@media all and (orientation: portrait){
+
+    img{
+
+        width: 200px;
+        border:2px coral;
+    }
+}
